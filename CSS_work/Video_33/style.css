@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navcolor:#4c3c3c;
+    --fontco: aliceblue;
+    --bodyco: #634d4d;
+}
+p{
+    padding: 20px;
+    font-size: 150%;
+}
+h1{
+    margin: auto;
+    width: 26%;
+    padding: 10px;
+}
+body{
+    background-color: var(--bodyco);
+    color: var(--fontco);
+}
+.nav{
+    background-color:var(--navcolor) ;
+}
+ul{
+    display: flex;
+}
+li:hover{
+    text-decoration: underline;
+}
+li{
+    font-size: 18px;
+    list-style: none;
+    padding: 25px;
+    color: var(--fontco);
+}

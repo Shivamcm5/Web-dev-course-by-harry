@@ -1,0 +1,74 @@
+
+.outerbox{
+    background-color: #EDEADE;
+    height: 570px;
+    width: 430px;
+    position: relative;
+    top: 110px;
+    margin: auto;
+}
+.innerbox{
+    height: 520px;
+    width: 380px;
+    background-color: #FAF9F6;
+    margin: auto;
+    position: relative;
+    top: 21px;
+    border-radius: 10px;
+    border: 1px solid #a2a2a2;
+}
+img{
+    width: 370px;
+    height: 240px;
+    position: relative;
+    left: 5px;
+    margin: auto;
+    top: 5px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.issue{
+    margin-top: 10px;
+    color: #a2a2a2;
+    border: 2px solid #a2a2a2;
+    
+    border-radius: 30px;
+    font-size: 20px;
+    position: relative;
+    left: 15px;
+}
+.issue2{
+    left: 30px;
+    padding: 5px;
+}
+.issue1{
+    padding: 5px;
+}
+h2{
+    color: #575757;
+    position: relative;
+    left: 15px;
+    right:9px;
+}
+p{
+    color: #a2a2a2;
+    margin: auto;
+    position: relative;
+    left: 15px;
+    right:9px;
+    font-size: 20px;
+}
+button{
+    top: 440px;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid #B9D9EB;
+    color: #318CE7;
+    background-color: #B9D9EB;
+    font-size: medium;
+    font-weight: 300;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 55%);
+}

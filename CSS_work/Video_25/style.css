@@ -1,0 +1,14 @@
+ul{
+    display: flex;
+}
+nav ul li{
+    display: flex;
+    padding: 23px;
+    list-style: none;
+    /* background-color: yellow;
+    list-style-position:inside;
+    border: 2px solid black;
+    border-radius: 10px;
+    list-style-type: "🗿";
+    font-size: 20px; */
+}   
