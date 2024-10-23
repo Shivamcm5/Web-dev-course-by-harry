@@ -13,8 +13,7 @@ console.log(1)
     let a = {
         Name: "Shivam",
         Age: 14,
-        "current role": "Nothing 2nd option",
-        "Wanna be": "Programmer or Crickter",
+        Role: "Nothing 2nd option"
     }
 
     for (const key in a) {
@@ -22,7 +21,11 @@ console.log(1)
         console.log(key, element)
     }
 }
-
+{ // Example for "for-of" loop
+    for (const c of "Shivam") {
+        console.log(c)
+    }
+}
 { // Example of "While" loop
     let a = 2;
 
@@ -37,5 +40,5 @@ console.log(1)
     do {
         console.log(a)
         a++
-    } while (a<2);
+    } while (a < 2);
 }
