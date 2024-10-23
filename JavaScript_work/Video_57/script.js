@@ -4,7 +4,7 @@ console.log(1)
 { // Example for "For" loop
     let a = 1;
 
-    for (let i = 0; i < 1; i++) {
+    for (let i = 0; i < 10; i++) {
         console.log(a + i);
     }
 }
