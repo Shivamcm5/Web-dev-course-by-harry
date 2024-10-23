@@ -27,9 +27,9 @@ console.log(1)
     }
 }
 { // Example of "While" loop
-    let a = 2;
+    let a = 0;
 
-    while (a < 5) {
+    while (a <= 5) {
         console.log(a)
         a++
     }
